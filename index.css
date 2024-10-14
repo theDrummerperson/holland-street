@@ -12,7 +12,10 @@
 	margin-right:0px;
 }
 .banner img { /* Targets the img element within the div with class "banner" */
-  width: 20%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 20%;
 }
 
 #logo { 
