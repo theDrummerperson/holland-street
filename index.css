@@ -11,6 +11,15 @@
 	margin-left:26px;
 	margin-right:0px;
 }
+
+@media (max-width: 768px) { 
+  .container {
+    width: 90%; /* Adjust container width on smaller screens */
+  }
+  nav ul {
+    display: block; /* Change navigation layout */
+  }
+}
 .banner {
 	height: auto;
 	width: 900px;
