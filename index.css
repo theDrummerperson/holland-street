@@ -17,14 +17,10 @@
 img { /* Or use a more specific selector if needed */
   width: 50%;  /* Set the width to 50% of its container */
   /* OR */
-  max-width: 300px; /* Set a maximum width of 300px */
+  max-width: 500px; /* Set a maximum width of 300px */
 }
 
-#logo { 
-  display: flex;
-  justify-content: center;
-  align-items: center; 
-}
+
 
 .subt {
 	font-family: Neue Haas Grotesk, Helvetica, Arial, sans-serif;
