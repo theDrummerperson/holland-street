@@ -1,4 +1,18 @@
 <!--
+main {
+  overflow: hidden; /* Contain floated elements */
+  margin: 0 auto;  /* Center the main content */
+  /* Add any other styles for <main> here */
+}
+
+#contentwrapper {
+  /* width: 1000px; Remove this */
+  max-width: 1000px; /* Optional: limit the maximum width */
+  margin-right: auto;
+  margin-left: auto;
+  /* ...other styles... */
+}
+
 .title {
 	font-family: Arial, Helvetica, sans-serif;
 	font-weight: bold;
@@ -117,21 +131,7 @@ body {
 	font-size: 10pt;
 	color: ##000000;
 }
-#maindisplay_A {
-	height: 800px;
-	width: auto;
-	background-color: #CCC;
-}
-#contentwrapper {
-	height: auto;
-	width: 1000px;
-	margin-right: auto;
-	margin-left: auto;
-	border-top-color: #FFF;
-	border-right-color: #FFF;
-	border-bottom-color: #FFF;
-	border-left-color: #FFF;
-}
+
 .about_txt {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 11pt;
