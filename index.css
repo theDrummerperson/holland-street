@@ -1,8 +1,7 @@
 <!--
 .main {
-  overflow: hidden; /* Contain floated elements */
-  margin: 0 auto;  /* Center the main content */
-  /* Add any other styles for <main> here */
+  overflow: hidden;
+  margin: 0 auto; 
 }
 
 #contentwrapper {
@@ -109,7 +108,6 @@ body {
 	width: 1065px;
 	text-align: center;
 	margin-top: 20px;
-	float: left;
 	padding-top: 10px;
 	padding-right: 10px;
 	padding-bottom: 10px;
@@ -124,7 +122,6 @@ body {
 	width: 1065px;
 	text-align: center;
 	margin-top: 20px;
-	float: left;
 	padding-top: 10px;
 	padding-right: 10px;
 	padding-bottom: 10px;
