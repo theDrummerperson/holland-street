@@ -47,7 +47,8 @@ a:active {
 body {
   margin: 0 auto; 
   /* width: 80%;  Consider removing or changing to max-width */
-}
+	margin: 0 auto;  
+  /* ... other styles ... */}
 .style1 {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 12px;
@@ -106,15 +107,17 @@ body {
 
 #navbannerb {
   /* ... other styles ... */
-  float: none; /* Remove float */
+  float: none; 
+  margin: 0 auto;  /* Add this to center horizontally */
+  /* ... other styles ... */
 }
-
 
 
 #col4 {
   /* ... other styles ... */
   float: none; /* Remove float */
-}
+margin: 0 auto;  /* Add this to center horizontally */
+  /* ... other styles ... */}
 .about_txt {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 11pt;
