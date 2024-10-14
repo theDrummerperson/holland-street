@@ -175,3 +175,7 @@ body {
 	vertical-align: top;
 	color: #666;
 }
+
+h1 {
+  font-family: 'Marker Felt', cursive, sans-serif; 
+}
