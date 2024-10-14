@@ -15,9 +15,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-	width: 50%;
+  width: 50%;
+  margin-left: auto;  /* Add these lines to center the .banner div */
+  margin-right: auto;
 }
-
 #logo { 
   display: flex;
   justify-content: center;
