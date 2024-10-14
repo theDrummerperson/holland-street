@@ -12,7 +12,10 @@
   margin-left: auto;
   /* ...other styles... */
 }
-
+#container {
+   width: 80%; /* Or any other desired width */
+   margin: 0 auto; /* Center horizontally */
+ }
 .title {
 	font-family: Arial, Helvetica, sans-serif;
 	font-weight: bold;
