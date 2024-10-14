@@ -1,33 +1,18 @@
-<!--
-main {
-  overflow: hidden;
-  margin: 0 auto; 
-}
-
-#contentwrapper {
-  /* width: 1000px; Remove this */
-  max-width: 1000px; /* Optional: limit the maximum width */
-  margin-right: auto;
-  margin-left: auto;
-  /* ...other styles... */
-}
-#container {
-  width: 80%; 
-  margin: 0 auto; 
-}
-
-.title {
+.banner {
+  text-align: center;
 	font-family: Arial, Helvetica, sans-serif;
-	font-weight: bold;
-	font-size: 26px;
-	color: #0956A6;
+	font-size: 15px;
+	color: #C0C0C0;
 	margin-top:20px;
 	margin-bottom:15px;
 	margin-left:26px;
 	margin-right:0px;
 }
 
-
+main {
+  overflow: hidden;
+  margin: 0 auto; 
+}
 a:link {
 	text-decoration: none;
 	color: #999999;
@@ -43,13 +28,7 @@ a:active {
 	text-decoration: none;
 	color: #F00;
 	text-align: center;
-}
-body {
-  margin: 0 auto; 
-  /* width: 80%;  Consider removing or changing to max-width */
-	margin: 0 auto;  
-  /* ... other styles ... */}
-.style1 {
+}.style1 {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 12px;
 	color: #FFFFFF;
@@ -73,51 +52,26 @@ body {
 	padding: 0px;
 	color: #666;
 }
-#col2 {
-	height: auto;
-	width: 580px;
-	float: left;
-	text-align: center;
-	margin-top: 20px;
-	padding: 0px;
-	margin-left: 10px;
-	border-right-width: 1px;
-	border-right-style: solid;
-	border-right-color: #CCC;
-	border-left-width: 1px;
-	border-left-style: solid;
-	border-left-color: #CCC;
-	margin-right: 10px;
-	color: #999;
-}
-#col3 {
-	height: auto;
-	width: 190px;
-	text-align: left;
-	margin-top: 20px;
-	float: left;
-	padding-top: 10px;
-	padding-right: 10px;
-	padding-bottom: 10px;
-	padding-left: 0px;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 10pt;
-	color: #999;
-}
-
-#navbannerb {
-  /* ... other styles ... */
-  float: none; 
-  margin: 0 auto;  /* Add this to center horizontally */
-  /* ... other styles ... */
-}
-
 
 #col4 {
   /* ... other styles ... */
   float: none; /* Remove float */
-margin: 0 auto;  /* Add this to center horizontally */
-  /* ... other styles ... */}
+  text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	color: #C0C0C0;
+	margin-top:20px;
+	margin-bottom:15px;
+	margin-left:26px;
+	margin-right:0px;
+}
+
+
+
+
+
+
+
 .about_txt {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 11pt;
@@ -125,9 +79,3 @@ margin: 0 auto;  /* Add this to center horizontally */
 	color: #666;
 }
 
-footer {
-  background-color: #f2f2f2; /* Light gray background */
-  padding: 20px;
-  text-align: center;
-  font-size: 14px;
-}
