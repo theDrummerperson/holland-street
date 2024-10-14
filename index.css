@@ -1,5 +1,5 @@
 <!--
-main {
+.main {
   overflow: hidden; /* Contain floated elements */
   margin: 0 auto;  /* Center the main content */
   /* Add any other styles for <main> here */
@@ -22,7 +22,6 @@ main {
 	margin-bottom:15px;
 	margin-left:26px;
 	margin-right:0px;
-
 }
 
 
