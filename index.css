@@ -1,5 +1,5 @@
 <!--
-.main {
+main {
   overflow: hidden;
   margin: 0 auto; 
 }
@@ -12,9 +12,10 @@
   /* ...other styles... */
 }
 #container {
-   width: 80%; /* Or any other desired width */
-   margin: 0 auto; /* Center horizontally */
- }
+  width: 80%; 
+  margin: 0 auto; 
+}
+
 .title {
 	font-family: Arial, Helvetica, sans-serif;
 	font-weight: bold;
@@ -44,8 +45,8 @@ a:active {
 	text-align: center;
 }
 body {
-	margin-top: 0 auto; /* Top and bottom margin 0, left and right margin auto */
-	width: 80%; /* Or any other desired width */
+  margin: 0 auto; 
+  /* width: 80%;  Consider removing or changing to max-width */
 }
 .style1 {
 	font-family: Arial, Helvetica, sans-serif;
@@ -104,33 +105,16 @@ body {
 }
 
 #navbannerb {
-	height: auto;
-	width: 1065px;
-	text-align: center;
-	margin-top: 20px;
-	padding-top: 10px;
-	padding-right: 10px;
-	padding-bottom: 10px;
-	padding-left: 0px;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 10pt;
-	color: #999;
+  /* ... other styles ... */
+  float: none; /* Remove float */
 }
+
+
 
 #col4 {
-	height: auto;
-	width: 1065px;
-	text-align: center;
-	margin-top: 20px;
-	padding-top: 10px;
-	padding-right: 10px;
-	padding-bottom: 10px;
-	padding-left: 0px;
-	font-family: CATHSGBR, Arial, Helvetica, sans-serif;
-	font-size: 10pt;
-	color: ##000000;
+  /* ... other styles ... */
+  float: none; /* Remove float */
 }
-
 .about_txt {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 11pt;
