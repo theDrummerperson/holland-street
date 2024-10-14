@@ -12,11 +12,10 @@
 	margin-right:0px;
 }
 .banner {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: auto;  /* Add these lines to center the .banner div */
-  margin-right: auto;
+ width: 50%;
+}
+
+
 }
 #logo { 
   display: flex;
