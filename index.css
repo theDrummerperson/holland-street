@@ -1,8 +1,6 @@
-@charset "UTF-8";
-/* CSS Document */
 <!--
 .title {
-	font-family: Neue Haas Grotesk, Helvetica, Arial, sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 	font-weight: bold;
 	font-size: 26px;
 	color: #0956A6;
@@ -11,35 +9,8 @@
 	margin-left:26px;
 	margin-right:0px;
 }
-
-@media (max-width: 768px) { 
-  .container {
-    width: 90%; /* Adjust container width on smaller screens */
-  }
-  nav ul {
-    display: block; /* Change navigation layout */
-  }
-}
-.banner {
-	height: auto;
-	width: 900px;
-	text-align: left;
-	margin-top: 20px;
-	float: left;
-	padding-top: 10px;
-	padding-right: 10px;
-	padding-bottom: 10px;
-	padding-left: 0px;
-	width: 30%;
-}
-img { 
-  max-width: 900px; /* Set a maximum width of 900px */
-}
-
-
-
 .subt {
-	font-family: Neue Haas Grotesk, Helvetica, Arial, sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 	font-size: 12px;
 	color: #0956A6;
 	margin-top:0px;
@@ -48,7 +19,7 @@ img {
 	margin-right:0px;
 }
 .s {
-	font-family: Neue Haas Grotesk, Helvetica, Arial, sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 	font-size: 14px;
 	font-weight: bold;
 	color: #0956A6;
@@ -83,14 +54,14 @@ a:hover {
 }
 a:active {
 	text-decoration: none;
-	color: #999999;
+	color: #F00;
 	text-align: center;
 }
 body {
 	margin-top: 0px;
 }
 .style1 {
-	font-family: Neue Haas Grotesk, Helvetica, Arial, sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 	font-size: 12px;
 	color: #FFFFFF;
 	margin: 0px;
@@ -98,26 +69,26 @@ body {
 }
 .style2 {
 	color: #CC9900;
-	font-family: Neue Haas Grotesk, Helvetica, Arial, sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 }
-.style4 {color: #CC9900; font-family: Neue Haas Grotesk, Helvetica, Arial, sans-serif; font-size: 12px; }
+.style4 {color: #CC9900; font-family: Arial, Helvetica, sans-serif; font-size: 12px; }
 #col1 {
-	height: 400px;
+	height: 500px;
 	width: 190px;
 	float: left;
 	text-align: left;
 	margin-top: 20px;
-	font-family: Neue Haas Grotesk, Helvetica, Arial, sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 	font-size: 10pt;
 	line-height: normal;
 	padding: 0px;
-	color: #999;
+	color: #666;
 }
 #col2 {
 	height: auto;
 	width: 580px;
 	float: left;
-	text-align: left;
+	text-align: center;
 	margin-top: 20px;
 	padding: 0px;
 	margin-left: 10px;
@@ -128,6 +99,7 @@ body {
 	border-left-style: solid;
 	border-left-color: #CCC;
 	margin-right: 10px;
+	color: #999;
 }
 #col3 {
 	height: auto;
@@ -139,9 +111,39 @@ body {
 	padding-right: 10px;
 	padding-bottom: 10px;
 	padding-left: 0px;
-	font-family: font-family: Neue Haas Grotesk, Helvetica, Arial, sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 	font-size: 10pt;
 	color: #999;
+}
+
+#navbannerb {
+	height: auto;
+	width: 1065px;
+	text-align: center;
+	margin-top: 20px;
+	float: left;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	color: #999;
+}
+
+#col4 {
+	height: auto;
+	width: 1065px;
+	text-align: center;
+	margin-top: 20px;
+	float: left;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 0px;
+	font-family: CATHSGBR, Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	color: ##000000;
 }
 #maindisplay_A {
 	height: 800px;
@@ -158,21 +160,9 @@ body {
 	border-bottom-color: #FFF;
 	border-left-color: #FFF;
 }
-#navbannerb {
-	height: auto;
-	width: 1000px;
-	font-family: Neue Haas Grotesk, Helvetica, Arial, sans-serif;
-	font-size: 10pt;
-	text-align: center;
-	margin-top: 20px;
-	display: block;
-	border-top-width: 1px;
-	border-bottom-width: 1px;
-	border-top-style: solid;
-	border-bottom-style: none;
-	border-top-color: #CCC;
-	border-bottom-color: #CCC;
-	float: left;
-	line-height: normal;
+.about_txt {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11pt;
+	vertical-align: top;
+	color: #666;
 }
-
