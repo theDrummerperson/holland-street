@@ -66,15 +66,14 @@ a:active {
 	margin-right:0px;
 }
 
-.footer {
-	  text-align: center;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 15px;
-	color: #C0C0C0;
-	margin-top:20px;
-	margin-bottom:15px;
-	margin-left:26px;
-	margin-right:0px;
+footer {
+  background-color: #f2f2f2; /* Light gray background */
+  padding: 20px; 
+  text-align: center;
+  font-size: 14px;
+  color: #333; /* Dark gray text */
+  border-top: 1px solid #ddd; /* Subtle top border */
+  margin-top: 50px; /* Space from the main content */
 }
 
 
