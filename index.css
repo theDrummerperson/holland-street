@@ -11,6 +11,9 @@
 	margin-left:26px;
 	margin-right:0px;
 }
+.banner img { /* Targets the img element within the div with class "banner" */
+  width: 50%;
+}
 
 #logo { 
   display: flex;
