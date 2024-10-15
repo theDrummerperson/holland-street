@@ -63,5 +63,10 @@ header {
 nav {
   /* Your navbar styles here, e.g., background color, padding, etc. */
   position: relative; /* Ensure the navbar is in front of the hero image */
-  z-index: 1; /* Higher z-index than the hero image */
+	 padding: 20px; 
+  text-align: center;
+  font-size: 14px;
+  color: #333; /* Dark gray text */
+  border-top: 1px solid #ddd; /* Subtle top border */
+  margin-top: 50px; /* Space from the main content */  z-index: 1; /* Higher z-index than the hero image */
 }
