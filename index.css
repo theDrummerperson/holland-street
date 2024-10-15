@@ -66,8 +66,7 @@ nav {
   z-index: 1; /* Higher z-index than the hero image */
 }
 
-
-}.style1 {
+.style1 {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 12px;
 	color: #FFFFFF;
@@ -79,15 +78,4 @@ nav {
 	font-family: Arial, Helvetica, sans-serif;
 }
 .style4 {color: #CC9900; font-family: Arial, Helvetica, sans-serif; font-size: 12px; }
-#col1 {
-	height: 500px;
-	width: 190px;
-	float: left;
-	text-align: left;
-	margin-top: 20px;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 10pt;
-	line-height: normal;
-	padding: 0px;
-	color: #666;
-}
+
