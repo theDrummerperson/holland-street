@@ -75,7 +75,7 @@ header {
 }
 
 .hero-image {
-  background-image: url("Untitled-2.png"); /* Replace with your image path */
+  background-image: url("hero.png"); /* Replace with your image path */
   background-size: cover;
   background-position: center top; /* Center horizontally, align to top */
   background-repeat: no-repeat;
