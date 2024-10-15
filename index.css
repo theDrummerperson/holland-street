@@ -80,7 +80,11 @@ footer {
 }
 
 
-img { 
-  max-width: 100%;
-  height: auto; /* Maintain aspect ratio */
+header {
+  background-image: url("");
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* Add a semi-transparent black overlay */
+  background-color: rgba(0, 0, 0, 0.5); 
+  color: white; /* Set the text color to white for contrast */
 }
