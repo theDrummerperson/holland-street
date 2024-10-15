@@ -65,17 +65,3 @@ nav {
   position: relative; /* Ensure the navbar is in front of the hero image */
   z-index: 1; /* Higher z-index than the hero image */
 }
-
-.style1 {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 12px;
-	color: #FFFFFF;
-	margin: 10px;
-	padding: 0px;
-}
-.style2 {
-	color: #CC9900;
-	font-family: Arial, Helvetica, sans-serif;
-}
-.style4 {color: #CC9900; font-family: Arial, Helvetica, sans-serif; font-size: 12px; }
-
