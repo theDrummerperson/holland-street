@@ -57,7 +57,6 @@ footer {
 
 
 
-
 }
 a:link {
 	text-decoration: none;
@@ -80,47 +79,4 @@ a:active {
 	font-size: 11pt;
 	vertical-align: top;
 	color: #666;
-}
-footer {
-  background-color: #f2f2f2; /* Light gray background */
-  padding: 20px; 
-  text-align: center;
-  font-size: 14px;
-  color: #333; /* Dark gray text */
-  border-top: 1px solid #ddd; /* Subtle top border */
-  margin-top: 50px; /* Space from the main content */
-}
-
-
-
-
-.about_txt {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 11pt;
-	vertical-align: top;
-	color: #666;
-}
-
-
-header {
-  position: relative; /* This is important for positioning the hero image */
-}
-
-.hero-image {
-  background-image: url("hero.png"); /* Replace with your image path */
-  background-size: cover;
-  background-position: center top; /* Center horizontally, align to top */
-  background-repeat: no-repeat;
-  position: absolute; 
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 500px; /* Or a specific height, e.g., 300px */
-  z-index: -1; /* Place the hero image behind the navbar */
-}
-
-nav {
-  /* Your navbar styles here, e.g., background color, padding, etc. */
-  position: relative; /* Ensure the navbar is in front of the hero image */
-	  z-index: 1; /* Higher z-index than the hero image */
 }
