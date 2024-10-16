@@ -25,16 +25,11 @@ nav, section {
 	text-align: center;
 }
 
-#site-nav {
-  position: absolute; 
-  top: 0;        
-  left: 90px;
-  max-width: 1200px;  
-  z-index: 10;   
-  padding: 0px 0px; 
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between; 
-  flex-direction: row; 
-  align-items: right; 
+#site-nav img {
+  margin-left: 20px;
+  order: -1; /* Place the image first */
+}
+
+#site-nav a {
+  margin-right: 20px; 
 }
