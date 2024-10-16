@@ -1,4 +1,4 @@
-
+weeee
 }* {
   margin: 0;
   padding: 0;
@@ -22,7 +22,7 @@ nav, section {
 	color: gray;
 	font-family: Helvetica, sans-serif;
 	font-size: 10pt;
-	text-align: center;
+	text-align: right;
 }
 
 
@@ -37,4 +37,4 @@ nav, section {
   flex-wrap: wrap;
   justify-content: left; 
   flex-direction: row; 
-  align-items: right; }
+  align-items: space between; }
