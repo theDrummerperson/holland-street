@@ -36,8 +36,7 @@ body {
 
 #top-right-nav a {
   margin-bottom: 10px; /* Add spacing between links */
-  padding: 8px 12px; /* Add some padding to the links */
-  background-color: gray); /* Add a background color */
+  padding: 8px 30px; /* Add some padding to the links */
   border-radius: 5px; /* Add rounded corners */
   text-decoration: none; /* Remove underlines from links */
   color: #333; /* Set link color */
