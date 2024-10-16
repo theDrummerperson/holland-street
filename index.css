@@ -10,23 +10,6 @@ body {
 }
 
 
-nav { 
-	display: inline;
-	position: absolute; 	
-	order: -1;	
-	top: 0;        
-	left: 90px;	
-	padding-right: 20px;
-	padding-left: 20px;
-	margin-left: 0px;
-	margin-right: 0px; 	
-	line-height: 22pt;
-	max-width: 1200px;
-	color: gray;
-	font-family: Helvetica, sans-serif;
-	font-size: 10pt;
-	text-align: left;
-}
 
 #site-nav {
   position: absolute; 
