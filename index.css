@@ -20,8 +20,8 @@ body {
   position: absolute; 
   top: 0;        
   left: auto;
-  max-width: 1200px;  
-  z-index: 10;   
+  max-width: auto;  
+  z-index: 11;   
   padding: 0px 00px; 
   display: flex;
   flex-wrap: wrap;
