@@ -1,49 +1,41 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
-body {
-  max-width: auto;
-  margin: 0 auto;
-  z-index: 10;   
-  padding: 0px 0px; 
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row; 
-  align-items: center; }
-
-
-	
 #site-logo {
-  position: absolute; 
-  top: 0;        
-  left: auto;
-  max-width: auto;  
-  z-index: 11;   
-  padding: 0px 0px; 
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row; 
-  align-items: right; 
+  position: fixed; /* Fixed positioning */
+  top: 20px; /* Adjust top spacing as needed */
+  left: 20px; /* Adjust left spacing as needed */
+  z-index: 10; /* Ensure it's on top */
 }
 
 #top-right-nav {
-  position: fixed; /* Fixed positioning to keep it in the top right */
-  top: 0px; /* Adjust top spacing as needed */
-  right: 0px; /* Adjust right spacing as needed */
-  z-index: 11; /* Ensure it's on top of other elements */
-  display: flex; /* Use flexbox for easy alignment */
-  flex-direction: row; /* Arrange links vertically */
+  position: fixed; 
+  top: 20px; 
+  right: 20px; 
+  z-index: 10; 
+  display: flex; 
+  flex-direction: row; 
 }
 
-#top-right-nav a {
-  margin-bottom: 10px; /* Add spacing between links */
-  padding: 8px 12px; /* Add some padding to the links */
-  border-radius: 5px; /* Add rounded corners */
-  text-decoration: none; /* Remove underlines from links */
-  color: #333; /* Set link color */
+#hero {
+  /* No need for text-align: center since the image will be positioned absolutely */
+  position: relative; /* To create a stacking context for its child */
+}
+
+#hero img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  z-index: -1; /* Place the image behind the navigation */
 }
 
 
+
+#content h3 {
+  color: #555; 
+}
+
+.quote {
+  color: #333; 
+  font-style: italic;
+}
