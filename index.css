@@ -6,7 +6,7 @@ nav {
   width: 100%;
   z-index: 10; 
   display: flex; /* Use flexbox for easy alignment */
-  justify-content: space-between; /* Align logo to the left, nav to the right */
+  justify-content: flex-start; /* Align logo to the left, nav to the right */
   align-items: center; /* Vertically align items */
   padding: 20px; /* Add padding to the navigation */
 }
@@ -18,7 +18,7 @@ nav {
 #top-right-nav {
   list-style: none; /* Remove list markers */
   margin: 0;
-  padding: 100;
+  padding: 0;
   display: flex; /* Make the links flex items */
 }
 
