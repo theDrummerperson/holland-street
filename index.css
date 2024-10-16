@@ -11,7 +11,7 @@ body {
 }
 
 
-nav, section { 
+nav { 
 	display: inline;
 	position: absolute; 	
 	order: -1;	
