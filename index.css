@@ -10,3 +10,6 @@ body {
   margin: 0 auto;
 }
 
+header {
+  padding-top: 60 px; /* Adjust this value as needed */
+}
