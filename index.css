@@ -10,14 +10,20 @@ body {
   
 }
 
-nav { 
-	display: inline;
-	line-height: 22pt;
-	width: 1200px;
-}
+
 	
-
-
+#site-nav {
+  position: absolute; 
+  top: 0;        
+  left: 90px;
+  max-width: 1200px;  
+  z-index: 10;   
+  padding: 0px 0px; 
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row; 
+  align-items: right; 
+}
 
 #top-right-nav {
   position: fixed; /* Fixed positioning to keep it in the top right */
