@@ -63,7 +63,8 @@ footer {
   text-align: center;
   font-size: 14px;
   color: #333; 
-}
+}	
+
 .text {
 font-family: Helvetica, sans-serif;
 font-size: 14pt;
@@ -84,4 +85,9 @@ a:active {
 	text-decoration: none;
 	color: #F00;
 	text-align: center;
+
+/* ... other styles ... */
+
+
+
 
