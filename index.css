@@ -19,7 +19,7 @@ body {
 #site-logo {
   position: absolute; 
   top: 0;        
-  left: 0px;
+  left: auto;
   max-width: 1200px;  
   z-index: 10;   
   padding: 0px 00px; 
