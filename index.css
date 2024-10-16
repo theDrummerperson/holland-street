@@ -27,7 +27,7 @@ body {
 
 #top-right-nav {
   position: fixed; /* Fixed positioning to keep it in the top right */
-  top: 60px; /* Adjust top spacing as needed */
+  top: 70px; /* Adjust top spacing as needed */
   right: 20px; /* Adjust right spacing as needed */
   z-index: 11; /* Ensure it's on top of other elements */
   display: flex; /* Use flexbox for easy alignment */
