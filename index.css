@@ -13,9 +13,10 @@ body {
 
 nav, section { 
 	display: inline;
-	padding-right: 20px;
+	 order: -1;	padding-right: 20px;
 	padding-left: 20px;
-	margin-left: 0px;
+	margin-left: 20px;
+	margin-right: 20px; 	
 	line-height: 22pt;
 	width: 1200px;
 	color: gray;
@@ -25,11 +26,4 @@ nav, section {
 	text-align: center;
 }
 
-.img {
-  margin-left: 20px;
-  order: -1; /* Place the image first */
-}
 
-.a {
-  margin-right: 20px; 
-}
