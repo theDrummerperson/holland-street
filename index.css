@@ -29,7 +29,7 @@ body {
   position: fixed; /* Fixed positioning to keep it in the top right */
   top: 20px; /* Adjust top spacing as needed */
   right: 20px; /* Adjust right spacing as needed */
-  z-index: 100; /* Ensure it's on top of other elements */
+  z-index: 11; /* Ensure it's on top of other elements */
   display: flex; /* Use flexbox for easy alignment */
   flex-direction: column; /* Arrange links vertically */
 }
@@ -37,7 +37,7 @@ body {
 #top-right-nav a {
   margin-bottom: 10px; /* Add spacing between links */
   padding: 8px 12px; /* Add some padding to the links */
-  background-color: rgba(255, 255, 255, 0.8); /* Add a background color */
+  background-color: gray); /* Add a background color */
   border-radius: 5px; /* Add rounded corners */
   text-decoration: none; /* Remove underlines from links */
   color: #333; /* Set link color */
