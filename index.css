@@ -49,6 +49,21 @@ nav {
 }
 .text {
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 10pt;
+	font-size: 14pt;
 	text-align: left;
 }
+a:link {
+	text-decoration: none;
+	color: #999999;
+}
+a:visited {
+	text-decoration: none;
+	color: #999999;
+}
+a:hover {
+	color: #000;
+}
+a:active {
+	text-decoration: none;
+	color: #F00;
+	text-align: center;
