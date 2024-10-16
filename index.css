@@ -18,7 +18,7 @@ nav {
 #top-right-nav {
   list-style: none; /* Remove list markers */
   margin: 0;
-  padding: 0;
+  padding: 100;
   display: flex; /* Make the links flex items */
 }
 
