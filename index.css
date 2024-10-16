@@ -9,3 +9,9 @@ body {
   max-width: 1200px;
   margin: 0 auto;
 }
+
+.text {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	text-align: center;
+}
