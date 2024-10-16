@@ -24,7 +24,7 @@ nav {
 
 #top-right-nav li {
   display: inline-block; /* Arrange links horizontally */
-  margin-left: 150px; /* Add spacing between links */
+  margin-left: 200px; /* Add spacing between links */
 }
 
 #hero {
