@@ -16,7 +16,7 @@ body {
 
 
 	
-#site-nav {
+#site-logo {
   position: absolute; 
   top: 0;        
   left: 0px;
@@ -40,6 +40,7 @@ body {
 
 #top-right-nav a {
   margin-bottom: 10px; /* Add spacing between links */
+  background-color: blue;
   padding: 8px 12px; /* Add some padding to the links */
   border-radius: 5px; /* Add rounded corners */
   text-decoration: none; /* Remove underlines from links */
