@@ -35,6 +35,6 @@ nav, section {
   padding: 0px 0px; 
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between; 
+  justify-content: left; 
   flex-direction: row; 
   align-items: right; }
