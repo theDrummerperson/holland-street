@@ -1,5 +1,4 @@
-weeee
-}* {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -22,10 +21,10 @@ nav {
 	margin-left: 0px;
 	margin-right: 0px; 	
 	line-height: 22pt;
-	width: 1200px;
+	max-width: 1200px;
 	color: gray;
 	font-family: Helvetica, sans-serif;
 	font-size: 10pt;
-	text-align: center;
+	text-align: left;
 }
 
