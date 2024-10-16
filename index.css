@@ -13,7 +13,11 @@ body {
 
 nav, section { 
 	display: inline;
-	 order: -1;	padding-right: 20px;
+	position: absolute; 	
+	order: -1;	
+	top: 0;        
+	left: 90px;	
+	padding-right: 20px;
 	padding-left: 20px;
 	margin-left: 0px;
 	margin-right: 0px; 	
@@ -25,9 +29,3 @@ nav, section {
 	text-align: center;
 }
 
-
-#site-nav {
-  position: absolute; 
-  top: 0;        
-  left: 90px; 
-}
