@@ -30,11 +30,12 @@ nav, section {
   position: absolute; 
   top: 0;        
   left: 90px;
- max-width: 1200px;  
+  max-width: 1200px;  
   z-index: 10;   
   padding: 0px 0px; 
   display: flex;
   flex-wrap: wrap;
-  justify-content: left; 
+  justify-content: space-between; 
   flex-direction: row; 
-  align-items: space between; }
+  align-items: right; 
+}
