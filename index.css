@@ -47,6 +47,24 @@ nav {
 	color: #69C;
 	line-height: 14pt;
 }
+body {
+  display: flex;
+  min-height: 100vh; /* Ensure the body takes up at least the full viewport height */
+  flex-direction: column; /* Arrange content vertically */
+}
+
+main {
+  flex: 1; /* Allow the main content to grow and take up available space */
+}
+
+footer {
+  /* Your existing footer styles */
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #333; 
+}
 .text {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 14pt;
