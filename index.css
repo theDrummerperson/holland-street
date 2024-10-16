@@ -37,5 +37,5 @@ nav, section {
   flex-wrap: wrap;
   justify-content: space-between; 
   flex-direction: row; 
-  align-items: right; 
+  align-items: center; 
 }
