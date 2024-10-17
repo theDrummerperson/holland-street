@@ -79,8 +79,10 @@ a:active {
 	color: #F00;
 	text-align: center;
 
-/* ... other styles ... */
-
+footer {
+  text-align: center;
+  padding: 10px;
+}
 
 
 
