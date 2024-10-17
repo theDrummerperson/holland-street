@@ -82,6 +82,10 @@ a:active {
 footer {
   text-align: center;
   padding: 10px;
+ display: flex;
+min-height: 100vh;
+flex-direction: column;
+margin: 0;
 }
 
 
