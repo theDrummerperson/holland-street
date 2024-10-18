@@ -82,11 +82,8 @@ a:active {
 footer {
   text-align: center;
   padding: 10px;
- display: flex;
-min-height: 100vh;
-flex-direction: column;
-margin: 0;
+  position: relative; /* This is important for z-index to work */
+  z-index: 10; /* Choose a value higher than your logo's container */
 }
-
 
 
