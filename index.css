@@ -3,7 +3,6 @@ nav {
   top: 0; 
   left: 0;
   width: 100%;
-  z-index: 1; /* Reduced z-index for the navigation */  display: flex; 
   justify-content: flex-start;
   align-items: center; 
   padding: 100px; 
@@ -20,8 +19,7 @@ main {
   left: 0;
   width: 100%;
   height: auto;
-  
-}
+    z-index: -1; /* Reduced z-index for the navigation */}
 #top-right-nav {
   list-style: none; /* Remove list markers */
   margin: 0;
