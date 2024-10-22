@@ -6,11 +6,11 @@ nav {
   justify-content: flex-start;
   align-items: center; 
   padding: 100px; 
-}
+z-index: 1; /* Reduced z-index for the navigation */}
 
 main {
   flex: 1; 
-
+	  z-index: 2; /* Reduced z-index for the navigation */
 }
 
 #hero img {
