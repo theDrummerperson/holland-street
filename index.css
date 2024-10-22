@@ -83,6 +83,5 @@ footer {
   text-align: center;
   padding: 10px;
   position: relative; /* This is important for z-index to work */
-  z-index: 10; /* Choose a value higher than your logo's container */
 }
 
