@@ -1,16 +1,28 @@
-
 nav {
-  position: fixed; /* Fixed positioning for the entire navigation */
+  position: fixed; 
   top: 0; 
   left: 0;
   width: 100%;
-  z-index: 10; 
-  display: flex; /* Use flexbox for easy alignment */
-  justify-content: flex-start; /* Align logo to the left, nav to the right */
-  align-items: center; /* Vertically align items */
-  padding: 100px; /* Add padding to the navigation */
+  z-index: 1; /* Reduced z-index for the navigation */
+  display: flex; 
+  justify-content: flex-start;
+  align-items: center; 
+  padding: 100px; 
 }
 
+main {
+  flex: 1; 
+  z-index: 2;  /* Added z-index for the main content */ 
+}
+
+#hero img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  z-index: -1; /* Hero image remains behind the navigation */
+}
 #top-right-nav {
   list-style: none; /* Remove list markers */
   margin: 0;
@@ -23,13 +35,7 @@ nav {
   margin-left: 20px; /* Add spacing between links */
 }
 
-main {
-  flex: 1; /* Allow the main content to grow and take up available space */
-}
-#hero {
-  position: relative; /* To create a stacking context for its child */
-  margin-top: 80px; /* Add top margin to avoid content overlap */
-}
+
 
 #hero img {
   position: absolute;
