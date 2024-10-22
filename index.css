@@ -37,7 +37,7 @@ main {
   left: 0;
   width: 100%;
   height: auto;
-  z-index: 11; /* Place the image behind the navigation */
+  z-index: -1; /* Place the image behind the navigation */
 }
 
 .Hds {
