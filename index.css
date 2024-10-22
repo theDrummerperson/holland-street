@@ -55,7 +55,7 @@ body {
 
 main {
   flex: 1; /* Allow the main content to grow and take up available space */
-}
+	z-index: 2; }
 
 
 .text {
