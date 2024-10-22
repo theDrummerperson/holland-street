@@ -1,14 +1,20 @@
 
+
 nav {
-  position: fixed; /* Fixed positioning for the entire navigation */
+  position: fixed; 
   top: 0; 
   left: 0;
   width: 100%;
   z-index: 10; 
-  display: flex; /* Use flexbox for easy alignment */
-  justify-content: flex-start; /* Align logo to the left, nav to the right */
-  align-items: center; /* Vertically align items */
-  padding: 100px; /* Add padding to the navigation */
+  display: flex; 
+  justify-content: flex-start; 
+  align-items: center; 
+  padding: 100px; 
+}
+
+main {
+  flex: 1; 
+  margin-top: 140px; /* Adjust this value as needed */
 }
 
 #site-logo {
@@ -55,9 +61,7 @@ body {
   flex-direction: column; /* Arrange content vertically */
 }
 
-main {
-  flex: 1; /* Allow the main content to grow and take up available space */
-}
+
 
 
 .text {
