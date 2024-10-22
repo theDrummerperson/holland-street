@@ -28,17 +28,7 @@ nav {
   margin-left: 20px; /* Add spacing between links */
 }
 
-#bottom-center-nav {
-  list-style: none; /* Remove list markers */
-  margin: 0;
-  padding: 0;
-  display: flex; /* Make the links flex items */
-}
 
-#bottom-center-nav li {
-  display: inline-block; /* Arrange links horizontally */
-  margin-left: 40px; /* Add spacing between links */
-}
 #hero {
   position: relative; /* To create a stacking context for its child */
   margin-top: 80px; /* Add top margin to avoid content overlap */
