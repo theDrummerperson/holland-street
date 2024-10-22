@@ -11,7 +11,17 @@ nav {
   padding: 100px; /* Add padding to the navigation */
 }
 
+#top-right-nav {
+  list-style: none; /* Remove list markers */
+  margin: 0;
+  padding: 0;
+  display: flex; /* Make the links flex items */
+}
 
+#top-right-nav li {
+  display: inline-block; /* Arrange links horizontally */
+  margin-left: 20px; /* Add spacing between links */
+}
 
 
 #hero {
@@ -50,21 +60,6 @@ font-family: Helvetica, sans-serif;
 font-size: 14pt;
 text-align: left;
 }
-a:link {
-	text-decoration: none;
-	color: #999999;
-}
-a:visited {
-	text-decoration: none;
-	color: #999999;
-}
-a:hover {
-	color: #000;
-}
-a:active {
-	text-decoration: none;
-	color: #F00;
-	text-align: center;
 
 /* ... other styles ... */
 
