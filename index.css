@@ -49,10 +49,23 @@ body {
   min-height: 100vh; /* Ensure the body takes up at least the full viewport height */
   flex-direction: column; /* Arrange content vertically */
 }
-
-main {
-  flex: 1; /* Allow the main content to grow and take up available space */
+a:link {
+	text-decoration: none;
+	color: #999999;
 }
+a:visited {
+	text-decoration: none;
+	color: #999999;
+}
+a:hover {
+	color: #000;
+}
+a:active {
+	text-decoration: none;
+	color: #F00;
+	text-align: center;
+
+
 
 
 .text {
