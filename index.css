@@ -3,7 +3,7 @@ nav {
   top: 0; 
   left: 0;
   width: 100%;
-  z-index: 1; /* Reduced z-index for the navigation */
+  z-index: 0; /* Reduced z-index for the navigation */
   display: flex; 
   justify-content: flex-start;
   align-items: center; 
@@ -12,7 +12,7 @@ nav {
 
 main {
   flex: 1; 
-  z-index: 2;  /* Added z-index for the main content */ 
+  z-index: 0;  /* Added z-index for the main content */ 
 }
 
 #hero img {
@@ -21,7 +21,7 @@ main {
   left: 0;
   width: 100%;
   height: auto;
-  z-index: -1; /* Hero image remains behind the navigation */
+  z-index: 0; /* Hero image remains behind the navigation */
 }
 #top-right-nav {
   list-style: none; /* Remove list markers */
