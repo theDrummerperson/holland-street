@@ -4,7 +4,6 @@ nav {
   top: 0; 
   left: 0;
   width: 100%;
-  z-index: 1; 
   display: flex; /* Use flexbox for easy alignment */
   justify-content: flex-start; /* Align logo to the left, nav to the right */
   align-items: center; /* Vertically align items */
