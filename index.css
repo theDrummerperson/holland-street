@@ -1,6 +1,6 @@
 
 nav {
-  position: absolute; /* Fixed positioning for the entire navigation */
+  position: fixed; /* Fixed positioning for the entire navigation */
   top: 0; 
   left: 0;
   width: 100%;
@@ -24,6 +24,7 @@ nav {
 #top-right-nav li {
   display: inline-block; /* Arrange links horizontally */
   margin-left: 20px; /* Add spacing between links */
+background-color: white;
 }
 
 #hero {
