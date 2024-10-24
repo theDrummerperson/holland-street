@@ -32,6 +32,7 @@ main {
 #top-right-nav li {
   display: inline-block; /* Arrange links horizontally */
   margin-left: 20px; /* Add spacing between links */
+ background: white;
 }
 
 
