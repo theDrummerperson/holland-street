@@ -32,12 +32,11 @@ display: flex; /* Make the links flex items */
 z-index: 2;}
 
 #hero {
-  position: relative; /* To create a stacking context for its child */
   margin-top: 80px; /* Add top margin to avoid content overlap */
 }
 
 #hero img {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
