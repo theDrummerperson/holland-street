@@ -1,6 +1,6 @@
 
 nav {
-  position: relative; /* Fixed positioning for the entire navigation */
+  position: absolute; /* Fixed positioning for the entire navigation */
   top: 0; 
   left: 0;
   width: 100%;
