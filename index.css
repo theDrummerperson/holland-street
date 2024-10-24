@@ -1,47 +1,52 @@
 
+
 nav {
-  position: fixed; /* Fixed positioning for the entire navigation */
+  position: fixed; 
   top: 0; 
   left: 0;
   width: 100%;
-  display: flex; /* Use flexbox for easy alignment */
-  justify-content: flex-start; /* Align logo to the left, nav to the right */
-  align-items: center; /* Vertically align items */
-  padding: 100px; /* Add padding to the navigation */
- z-index: 1;
+  z-index: 10; 
+  display: flex; 
+  justify-content: flex-start; 
+  align-items: center; 
+  padding: 100px; 
+}
+
+main {
+  flex: 1; 
+  margin-top: 140px; /* Adjust this value as needed */
 }
 
 #site-logo {
   /* No need for additional positioning styles */
 }
 
-#top-right-nav
-list-style: none; /* Remove list markers */
+#top-right-nav {
+  list-style: none; /* Remove list markers */
   margin: 0;
   padding: 0;
   display: flex; /* Make the links flex items */
 }
 
 
-
 #top-right-nav li {
-display: inline-block; /* Arrange links horizontally */
-margin-left: 20px; /* Add spacing between links */
-background-color: white;
-display: flex; /* Make the links flex items */
-z-index: 2;}
+  display: inline-block; /* Arrange links horizontally */
+  margin-left: 20px; /* Add spacing between links */
+}
+
 
 #hero {
+  position: relative; /* To create a stacking context for its child */
   margin-top: 80px; /* Add top margin to avoid content overlap */
 }
 
 #hero img {
-  position: relative;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: auto;
-
+  z-index: -1; /* Place the image behind the navigation */
 }
 
 .Hds {
@@ -55,6 +60,7 @@ body {
   min-height: 100vh; /* Ensure the body takes up at least the full viewport height */
   flex-direction: column; /* Arrange content vertically */
 }
+
 
 
 
@@ -79,8 +85,8 @@ a:active {
 	color: #F00;
 	text-align: center;
 
-/* ... other styles ... */
-
-
-
+footer {
+  text-align: center;
+  padding: 10px;
+ }
 
