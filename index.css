@@ -15,14 +15,19 @@ nav {
   /* No need for additional positioning styles */
 }
 
+#top-right-nav
+list-style: none; /* Remove list markers */
+  margin: 0;
+  padding: 0;
+  display: flex; /* Make the links flex items */
+}
+
+
 
 #top-right-nav li {
 display: inline-block; /* Arrange links horizontally */
 margin-left: 20px; /* Add spacing between links */
 background-color: white;
-list-style: none; /* Remove list markers */
-margin: 0;
-padding: 0;
 display: flex; /* Make the links flex items */
 z-index: 2;}
 
