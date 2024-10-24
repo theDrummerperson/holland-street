@@ -35,8 +35,7 @@ main {
 
 
 #hero {
-  position: relative; /* To create a stacking context for its child */
-  margin-top: 80px; /* Add top margin to avoid content overlap */
+  margin-top: 20px; /* Adjust the value as needed */
 }
 
 #hero img {
