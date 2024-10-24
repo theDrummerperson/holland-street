@@ -8,6 +8,7 @@ nav {
   justify-content: flex-start; /* Align logo to the left, nav to the right */
   align-items: center; /* Vertically align items */
   padding: 100px; /* Add padding to the navigation */
+ z-index: 1;
 }
 
 #site-logo {
@@ -25,7 +26,7 @@ nav {
   display: inline-block; /* Arrange links horizontally */
   margin-left: 20px; /* Add spacing between links */
 background-color: white;
-}
+	 z-index: 2;}
 
 #hero {
   position: relative; /* To create a stacking context for its child */
