@@ -1,16 +1,27 @@
 
+header {
+  display: flex;          /* Make the header a flex container */
+  justify-content: space-between; /* Distribute space between navs */
+  align-items: center;    /* Vertically align the nav bars */
+  padding: 10px 20px;     /* Add some padding to the header */
+}
 
 nav {
-  position: fixed; 
-  top: 0; 
-  left: 0;
-  width: 100%;
-  z-index: 10; 
+  /* Styles for each individual nav */
   display: flex; 
-  justify-content: flex-start; 
   align-items: center; 
-  padding: 100px; 
 }
+
+#top-right-nav li {
+  display: inline-block; /* Make list items inline */
+  margin-left: 20px;    /* Add space between list items */
+}
+
+#bottom-center-nav li {
+  display: inline-block; /* Make list items inline */
+  margin: 0 10px;         /* Add space between list items */
+}
+
 
 main {
   flex: 1; 
@@ -21,19 +32,6 @@ main {
   /* No need for additional positioning styles */
 }
 
-#top-right-nav {
-  list-style: none; /* Remove list markers */
-  margin: 0;
-  padding: 0;
-  display: flex; /* Make the links flex items */
-}
-
-
-#top-right-nav li {
-  display: inline-block; /* Arrange links horizontally */
-  margin-left: 20px; /* Add spacing between links */
- background: white;
-}
 
 
 #hero {
