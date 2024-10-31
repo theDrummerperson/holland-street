@@ -6,6 +6,27 @@ header {
   padding: 10px 20px;     /* Add some padding to the header */
 }
 
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Media Query for Smaller Screens */
+@media (max-width: 768px) {
+    header, main, footer {
+        padding: 10px;
+    }
+}
+
 nav {
   /* Styles for each individual nav */
   display: flex; 
@@ -38,14 +59,7 @@ main {
   margin-top: 20px; /* Adjust the value as needed */
 }
 
-#hero img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: auto;
-  z-index: -1; /* Place the image behind the navigation */
-}
+
 
 .Hds {
 	font-family: Arial, Helvetica, sans-serif;
