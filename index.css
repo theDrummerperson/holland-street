@@ -62,7 +62,7 @@ main {
 
 .hero-text {
   position: absolute;
-  bottom: 20px; /* Position the text 20px from the bottom */
+  bottom: 0px; /* Position the text at the bottom */
   left: 50%;
   transform: translateX(-50%); /* Center the text horizontally */
   color: black;
