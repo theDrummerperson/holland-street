@@ -47,6 +47,14 @@ main {
   flex: 1;
 }
 
+.content ul {
+    margin-bottom: 1rem;
+    margin-left: 40px;
+}
+
+.content h1, .content h2 {
+    margin-bottom: 1rem;
+}
 /* Typography */
 .hero-text {
   position: absolute;
