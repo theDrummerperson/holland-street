@@ -52,7 +52,6 @@ main {
 }
 .hero-text {
   position: absolute;
-  bottom: 500px; /* Adjust the distance as needed */
   left: 50%;
   transform: translateX(-50%);
   color: black;
