@@ -41,13 +41,10 @@ main {
 / Typography /
 
 }
-.text {
-  font-family: Helvetica, sans-serif;
-  font-size: 12pt;
-}
+
 .hero-text {
   position: absolute;
-  z-index: 1;
+   bottom: 20;  z-index: 1;
 }
 / Links /
 a {
