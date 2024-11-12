@@ -86,7 +86,7 @@ padding: 0;
 
 /* Base Styles */
 body {
-font-family: Arial, sans-serif;
+font-family: Helvetica, sans-serif;
 line-height: 1.6;
 min-height: 100vh;
 display: flex;
@@ -119,25 +119,9 @@ flex: 1;
 margin-top: 80px;
 }
 /* Typography */
-.Hds {
-font-family: Arial, Helvetica, sans-serif;
-font-size: 12pt;
-color: #69C;
-line-height: 14pt;
-}
-.text {
-font-family: Helvetica, sans-serif;
-font-size: 14pt;
-text-align: left;
-}
+
 .hero-text {
   position: absolute;
-  bottom: 0;
-  right: 20%; /* Adjust the distance from the right edge */
-  color: black;
-  background-color: rgba(255, 255, 255, 0.8);
-  padding: 20px;
-  text-align: center;
   z-index: 1;
 }
 /* Links */
