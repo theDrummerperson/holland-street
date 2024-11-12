@@ -54,7 +54,7 @@ main {
 
 .content {
     flex: 1;
-    max-width: 60%;
+    max-width: 100%;
 }
 
 .image-container {
@@ -63,7 +63,7 @@ main {
 }
 
 .image-container img {
-    width: 100%;
+    width: 80%;
     height: auto;
     display: block;
 }
