@@ -1,1 +1,75 @@
-<img src="image.jpg" alt="Image description">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Right-About</title>
+    <style>
+        /* Reset default margins and padding */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Basic page layout */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        /* Container for the content */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: flex-end;
+            align-items: start;
+            gap: 20px;
+        }
+
+        /* Content area */
+        .content {
+            flex: 1;
+        }
+
+        /* Image container */
+        .image-container {
+            flex: 0 0 auto;
+            max-width: 50%;
+        }
+
+        /* Image styling */
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        /* Responsive design */
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column-reverse;
+            }
+
+            .image-container {
+                max-width: 100%;
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <!-- Add your content here -->
+            <h1>Your Content Here</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+        <div class="image-container">
+            <img src="image.jpg" alt="Image description">
+        </div>
+    </div>
+</body>
+</html>
