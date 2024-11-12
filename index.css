@@ -52,6 +52,18 @@ main {
     z-index: 1;
 }
 
+.page-container, .hero-text2 {
+    position: absolute;
+    top: 70%;
+    left: 60%;
+    transform: translateX(-10%);
+    color: black;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    z-index: 2;
+}
+
 .content {
       flex: 1;
     max-width: 50%;
