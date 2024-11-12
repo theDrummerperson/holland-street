@@ -44,7 +44,7 @@ main {
 
 .hero-text {
   position: absolute;
-   bottom: 20;  
+   bottom: 20px;  
   color: black;
   background-color: white;
   padding: 50px;
