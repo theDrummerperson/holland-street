@@ -1,13 +1,8 @@
-/* Reset Styles */
+/* Reset & Base Styles */
 *, *::before, *::after {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-}
-
-/* Base Styles */
-html {
-    font-size: 16px;
 }
 
 body {
@@ -22,16 +17,11 @@ body {
 }
 
 /* Header and Navigation */
-header {
-    padding: 1rem;
-}
-
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
-    background-color: #fff;
 }
 
 #site-logo img {
@@ -50,8 +40,7 @@ main {
     flex: 1;
 }
 
-/* Container styles */
-.page-container {
+.page-container, .hero-text {
     position: absolute;
     top: 50%;
     left: 60%;
@@ -100,18 +89,6 @@ p {
     margin-left: 40px;
 }
 
-.hero-text {
-    position: absolute;
-    top: 50%;
-    left: 60%;
-    transform: translateX(-10%);
-    color: black;
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 20px;
-    text-align: center;
-    z-index: 1;
-}
-
 /* Links */
 a {
     text-decoration: none;
@@ -121,7 +98,6 @@ a {
 
 a:hover {
     opacity: 0.8;
-    color: #000;
 }
 
 a:active {
@@ -134,13 +110,12 @@ footer {
     padding: 10px;
 }
 
-/* Custom selection color */
+/* Custom UI Elements */
 ::selection {
     background: #999;
     color: #fff;
 }
 
-/* Custom scrollbar */
 ::-webkit-scrollbar {
     width: 10px;
 }
@@ -158,16 +133,14 @@ footer {
     background: #444;
 }
 
-/* Loading States */
-.loading {
+/* Status States */
+.loading, .error {
     text-align: center;
     padding: 2em;
 }
 
 .error {
     color: red;
-    text-align: center;
-    padding: 2em;
 }
 
 /* Responsive Design */
