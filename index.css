@@ -53,16 +53,10 @@ main {
 }
 
 .content {
-    position: absolute;
-  top: 25%; /* Adjust this percentage to move it down more */
-  left: 75%;
-  transform: translateX(-20%);
-  color: black;
-  background-color: rgba(255, 255, 255, 0.8);
-  padding: 20px;
-  text-align: center;
-  z-index: 1;
-}    
+      flex: 1;
+    max-width: 50%;
+}
+ 
   
 .image-container {
     flex: 0 0 auto;
