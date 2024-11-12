@@ -50,7 +50,7 @@ main {
 /* Typography */
 .hero-text {
   position: absolute;
-  top: 25%; /* Adjust this percentage to move it down more */
+  top: 50%; /* Adjust this percentage to move it down more */
   left: 75%;
   transform: translateX(-20%);
   color: black;
