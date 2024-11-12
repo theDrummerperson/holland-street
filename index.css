@@ -52,7 +52,12 @@ main {
 }
 .hero-text {
   position: absolute;
+  bottom: 0;
+  right: 20%; /* Adjust the distance from the right edge */
+  transform: translateX(50%); /* Center the text horizontally */
   color: black;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
   text-align: center;
   z-index: 1;
 }
@@ -175,4 +180,4 @@ margin-top: 1rem;
 flex-wrap: wrap;
 justify-content: center;
 }
-}
+
