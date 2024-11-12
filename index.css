@@ -1,4 +1,4 @@
-/* Reset Styles */
+ti/* Reset Styles */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -51,7 +51,7 @@ main {
   text-align: left;
 }
 .hero-text {
-  position: absolute;
+  position: relative;
   bottom: 0;
   left: calc(100% - 10%); /* Adjust the distance from the right edge */
   transform: translateX(-50%); /* Center the text within its new position */
