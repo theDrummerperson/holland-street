@@ -61,16 +61,15 @@ main {
 }
 
 .hero-text {
-  position: absolute; /* Make the text positioned relative to the image */
-  top: 50%; /* Position the text vertically at the center */
-  left: 50%; /* Position the text horizontally at the center */
-  transform: translate(-50%, -50%); /* Adjust positioning for centering */
-  color: white; /* Change text color to white (adjust as needed) */
-  background-color: rgba(0, 0, 0, 0.5); /* Add a semi-transparent black background */
-  padding: 20px; /* Add some padding around the text */
-  text-align: center; /* Center the text horizontally */
+  position: absolute;
+  bottom: 20px; /* Position the text 20px from the bottom */
+  left: 50%;
+  transform: translateX(-50%); /* Center the text horizontally */
+  color: black;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 20px;
+  text-align: center;
 }
-
 
 /* Links */
 a {
