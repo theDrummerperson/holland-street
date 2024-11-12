@@ -51,9 +51,30 @@ main {
 }
 
 /* Container styles */
-.container {
+.page-container {
     max-width: 1200px;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2rem;
+    padding: 20px;
+}
+
+.content {
+    flex: 1;
+    max-width: 60%;
+}
+
+.image-container {
+    flex: 0 0 auto;
+    width: 35%;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 /* Typography */
@@ -158,5 +179,15 @@ footer {
         margin-top: 1rem;
         flex-wrap: wrap;
         justify-content: center;
+    }
+    
+    .page-container {
+        flex-direction: column;
+    }
+    
+    .content,
+    .image-container {
+        max-width: 100%;
+        width: 100%;
     }
 }
