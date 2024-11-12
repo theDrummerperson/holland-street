@@ -143,15 +143,14 @@ font-size: 14pt;
 text-align: left;
 }
 .hero-text {
-position: absolute;
-bottom: 0;
-left: 50%;
-transform: translateX(-50%);
-color: black;
-background-color: rgba(255, 255, 255, 0.8);
-padding: 20px;
-text-align: center;
-z-index: 1;
+  position: absolute;
+  bottom: 0;
+  right: 20%; /* Adjust the distance from the right edge */
+  color: black;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  text-align: center;
+  z-index: 1;
 }
 /* Links */
 a {
