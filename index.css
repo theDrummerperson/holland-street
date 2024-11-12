@@ -92,3 +92,13 @@ footer {
     flex-wrap: wrap;
     justify-content: center;
   }
+.loading {
+    text-align: center;
+    padding: 2em;
+}
+
+.error {
+    color: red;
+    text-align: center;
+    padding: 2em;
+}
