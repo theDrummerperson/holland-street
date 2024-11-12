@@ -62,15 +62,15 @@ main {
 
 .hero-text {
   position: absolute;
-  bottom: 20px; /* Position the text 20px from the bottom */
+  bottom: 0;
   left: 50%;
-  transform: translateX(-50%); /* Center the text horizontally */
+  transform: translateX(-50%);
   color: black;
-  background-color: rgba(255, 255, 255, 1);
+  background-color: rgba(255, 255, 255, 0.8);
   padding: 20px;
   text-align: center;
+  z-index: 1; /* Place the text in front of the image */
 }
-
 /* Links */
 a {
   text-decoration: none;
