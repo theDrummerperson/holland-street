@@ -52,14 +52,14 @@ main {
 }
 .hero-text {
   position: absolute;
-  bottom: 0;
+  bottom: 50px; /* Adjust the distance as needed */
   left: 50%;
   transform: translateX(-50%);
   color: black;
   background-color: rgba(255, 255, 255, 0.8);
   padding: 20px;
-  text-align: bottom;
-  z-index: 1; / Place the text in front of the image /
+  text-align: center;
+  z-index: 1;
 }
 / Links /
 a {
