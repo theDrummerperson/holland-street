@@ -30,16 +30,8 @@ h2 {
     font-size: 2rem;
 }
 
-p {
-    font-family: Helvetica, sans-serif;
-    font-size: 3rem;
-    line-height: 1.5;
-    margin-bottom: 1rem;
-}
 
-.larger-text {
-    font-size: 3rem;
-}
+
 
 /* Layout */
 .page-container, .hero-text {
