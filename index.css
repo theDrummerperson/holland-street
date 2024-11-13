@@ -7,7 +7,6 @@
 
 body {
     font-family: Neue Haas Grotesk, sans-serif;
-    line-height: 1.6;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -56,20 +55,7 @@ h2 {
     z-index: 1;
 }
 
-.content {
-    flex: 1;
-    max-width: 50%;
-}
 
-.image-container {
-    flex: 0 0 auto;
-    width: 35%;
-}
-
-.image-container img {
-    width: 100%;
-    height: auto;
-}
 
 /* Links */
 a {
