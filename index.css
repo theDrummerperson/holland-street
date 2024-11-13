@@ -39,6 +39,17 @@ nav {
 main {
     flex: 1;
 }
+.larger-text {
+    font-size: 18px; /* Adjust the font size as needed */
+    font-family: Neue Haas Grotesk, sans-serif;
+    line-height: 1.6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+    padding: 20px;    
+}
 
 .page-container, .hero-text {
     position: absolute;
