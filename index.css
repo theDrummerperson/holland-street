@@ -52,7 +52,7 @@ h2 {
     background-color: black;
     padding: 10px;
     text-align: center;
-    z-index: 2;
+    z-index: 1;
 }
 
 /* Links */
