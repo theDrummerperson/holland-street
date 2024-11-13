@@ -39,13 +39,21 @@ h2 {
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: rgba(255, 255, 255, 0.8);
-    padding: 20px;
+    padding: 10px;
     text-align: center;
     z-index: 1;
 }
 
-
-
+.hero2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    text-align: center;
+    z-index: 2;
+}
 
 /* Links */
 a {
