@@ -52,6 +52,20 @@ main {
     z-index: 1;
 }
 
+
+
+.attention {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.hero-text2 p {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
 .page-container, .hero-text2 {
     position: absolute;
     top: 70%;
