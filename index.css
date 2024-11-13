@@ -112,9 +112,9 @@ h2 {
 
 
 
-.socials {
+p {
     font-family: Helvetica, sans-serif;
-    color: black;
+     font-size: 2rem;    color: black;
     background-color: white;
     padding: 20px;
     text-align: center;   
