@@ -56,8 +56,10 @@ main {
 
 .attention {
     font-family: Helvetica, sans-serif;
-    font-size: 16px;
-    font-weight: bold;
+    font-size: 24px;
+    font-weight: 400
+    color: white
+    background-color: red;
 }
 
 .hero-text2 p {
