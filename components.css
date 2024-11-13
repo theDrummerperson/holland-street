@@ -1,0 +1,47 @@
+/* Components */
+a {
+    text-decoration: none;
+    color: black;
+    transition: opacity 0.3s ease;
+}
+
+a:hover {
+    opacity: 0.8;
+}
+
+a:active {
+    color: #f00;
+}
+
+/* UI Elements */
+::selection {
+    background: #999;
+    color: #fff;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #1a1a1a;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #333;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #444;
+}
+
+/* Status States */
+.loading, .error {
+    text-align: center;
+    padding: 2em;
+}
+
+.error {
+    color: red;
+}
