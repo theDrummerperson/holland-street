@@ -23,12 +23,6 @@ h1 {
   margin-bottom: 1rem;
 }
 
-.hero-text {
-  text-align: center;
-  font-size: 3rem; /* Adjust based on your base font size */
- 
-  margin-bottom: 2rem;
-}
 
 .social-links {
   display: flex;
