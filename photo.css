@@ -1,0 +1,43 @@
+body {
+  font: 1.2em sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+p {
+  margin: 0 0 1em 0;
+}
+
+@media (min-width: 500px) {
+  .media {
+    display: grid;
+    grid-template-columns: fit-content(200px) 1fr;
+    grid-template-rows: 1fr auto;
+    grid-template-areas:
+      "image content"
+      "image footer";
+    grid-gap: 20px;
+    margin-bottom: 4em;
+  }
+
+  .media-flip {
+    grid-template-columns: 1fr fit-content(250px);
+    grid-template-areas:
+      "content image"
+      "footer image";
+  }
+
+  .img {
+    grid-area: image;
+  }
+
+  .content {
+    grid-area: content;
+  }
+
+  .footer {
+    grid-area: footer;
+  }
+}
