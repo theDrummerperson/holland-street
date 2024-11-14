@@ -1,13 +1,4 @@
 
-/* Reset & Base Styles */
-*, *::before, *::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-
-
 .attention {
     background-color: red; /* Set the background color to red */
     text-align: center; 
@@ -15,28 +6,3 @@
     width: 80%; /* Set the width to 100% of its parent container */
     margin: 0 auto; /* Center the element horizontally */
 }
-.social-links {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  list-style: none;
-  margin: 0; /* Remove unnecessary margin */
-  padding: 0; /* Remove unnecessary padding */
-}
-
-/* Typography */
-h1 {
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
-}
-
-
-.social-links li {
-  margin-bottom: 10px;
-}
-
-/* Layout Components */
-main {
-  flex: 1;
-}
-
