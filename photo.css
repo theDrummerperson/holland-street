@@ -1,68 +1,96 @@
 
-
-p {
-  margin: 0 0 1em 0;
+/* General reset and structure */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-@media (min-width: 500px) {
-  .media {
-    display: grid;
-    grid-template-columns: fit-content(200px) 1fr;
-    grid-template-rows: 1fr auto;
-    grid-template-areas:
-      "image content"
-      "image footer";
-    grid-gap: 20px;
-    margin-bottom: 4em;
-  }
-
-  .media-flip {
-    grid-template-columns: 1fr fit-content(250px);
-    grid-template-areas:
-      "content image"
-      "footer image";
-  }
-
-  .img {
-    grid-area: image;
-  }
-
-/* Hero Section */
-#hero img {
-  width: 80%;
-  height: auto;
-  max-width: 80%;
+body {
+    font-family: Arial, sans-serif; /* Or any font you prefer */
+    line-height: 1.6;
+    color: #fff; /* Default text color */
+    background-color: #000; /* Optional: Set a background color */
 }
 
-#saiilyas img {
-  width: 80%;
-  height: auto;
-  max-width: 80%;
+/* Hero section container (text and image positioning) */
+.hero-container {
+    position: relative;
+    display: flex;
+    justify-content: center;  /* Center image horizontally */
+    align-items: center;      /* Center image vertically */
+    width: 100%;
+    height: 100vh;            /* Full viewport height */
+    overflow: hidden;         /* Hide overflow to prevent the image from spilling */
 }
 
-.ilyas {
+/* Hero image (background behind text) */
+.hero-image {
     position: absolute;
     top: 0;
-    left: 0%;
-    transform: translateX(-50%); /* Center the image horizontally */
-    width: 50%;
-    height: 50%;
-    z-index: 0;
-}  
-
-
-.ilyas img {
+    left: 50%;
+    transform: translateX(-50%);
     width: 100%;
-    height: 100%; /* Stretch the image to fill the container */
-    object-fit: cover; /* Ensure the image covers the area without distorting */
+    height: 100%;
+    z-index: 0;               /* Image behind the text */
 }
-  .content {
-    grid-area: content;
-  }
+
+.hero-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;        /* Cover the entire container without distortion */
+}
 
 
-  
-  .footer {
-    grid-area: footer;
-  }
+/* Hero image (background behind text) */
+.saiilyas {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 100%;
+    z-index: 0;               /* Image behind the text */
+}
+
+.ilyas.jpeg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;        /* Cover the entire container without distortion */
+}
+
+
+/* Text container (above the image) */
+.hero-text {
+    position: relative;
+    z-index: 1;               /* Ensure text is in front of the image */
+    max-width: 600px;         /* Limit text block width */
+    padding: 20px;
+    color: white;             /* White text color */
+    background: rgba(0, 0, 0, 0.5);  /* Semi-transparent black background for readability */
+    margin-right: 20px;       /* Space between text and the right edge */
+    text-align: right;        /* Align text to the right side */
+}
+
+/* Text styling */
+.hero-text h1 {
+    font-size: 3rem;          /* Adjust size as needed */
+    margin-bottom: 20px;      /* Space between heading and paragraph */
+}
+
+.hero-text p {
+    font-size: 1.25rem;       /* Adjust size as needed */
+}
+
+/* Media query for small screens */
+@media (max-width: 768px) {
+    .hero-container {
+        flex-direction: column;  /* Stack text and image vertically on smaller screens */
+        align-items: center;     /* Center both vertically and horizontally */
+    }
+
+    .hero-text {
+        margin-right: 0;         /* Remove right margin when stacking */
+        text-align: center;      /* Center text on small screens */
+    }
 }
