@@ -30,7 +30,7 @@ nav {
     transform: translateX(-10%);
     background-color: rgba(255, 255, 255, 0.8);
     padding: 20px;
-    text-align: center;
+    text-align: justified;
     z-index: 1;
 }
 
