@@ -16,22 +16,23 @@
     overflow: hidden;        /* Prevent image from overflowing */
 }
 
-/* Hero image (background behind text) */
+/* Hero image container (positioning the image) */
 .hero-image {
     position: absolute;
     top: 0;
     left: 50%;
     transform: translateX(-50%);  /* Center the image horizontally */
-    width: 100%;
-    height: 100%;
-    z-index: 0;                   /* Image behind the text */
+    width: 100%;                   /* Make the image container take up full width */
+    height: 100%;                  /* Make the image container take up full height */
+    z-index: 0;                   /* Keep the image behind the text */
 }
 
+/* Image styling */
 .hero-image img {
     width: 100%;               /* Fill the width of the container */
-    height: auto;              /* Adjust height automatically based on width */
-    object-fit: cover;         /* Make sure image covers the entire container without distortion */
-    object-position: center;   /* Ensure the image is centered */
+    height: 100%;              /* Stretch to fill the height of the container */
+    object-fit: cover;         /* Maintain aspect ratio while covering the container */
+    object-position: center;   /* Keep the image centered in the container */
 }
 
 /* Text container (above the image) */
@@ -68,7 +69,8 @@
         text-align: center;     /* Center text on small screens */
     }
 
+    /* Ensure the image scales down properly on small screens */
     .hero-image img {
-        height: auto;           /* Maintain aspect ratio on small screens */
+        height: auto;           /* Maintain aspect ratio on smaller screens */
     }
 }
