@@ -19,7 +19,7 @@ body {
 
 .attention {
     background-color: red; /* Set the background color to red */
-    text-align: center; /* Center the text */
+    text-align: justified; 
     display: block; /* Make the element a block-level element */
     width: 90%; /* Set the width to 100% of its parent container */
     margin: 0 auto; /* Center the element horizontally */
