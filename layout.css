@@ -58,3 +58,24 @@ footer {
     text-align: center;
     padding: 10px;
 }
+
+/* Links */
+a {
+  text-decoration: none;
+  color: black;
+  transition: opacity 0.3s ease;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+a:active {
+  color: #f00;
+}
+
+/* Footer (not included in this page) */
+
+/* UI Elements & Status States (not relevant for this page) */
+
+/* Media Queries (not needed for basic layout_
