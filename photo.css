@@ -1,17 +1,6 @@
 
 /* General reset and structure */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: Arial, sans-serif; /* Or any font you prefer */
-    line-height: 1.6;
-    color: #fff; /* Default text color */
-    background-color: #000; /* Optional: Set a background color */
-}
 
 /* Hero section container (text and image positioning) */
 .hero-container {
