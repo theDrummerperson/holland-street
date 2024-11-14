@@ -34,8 +34,26 @@ nav {
     z-index: 1;
 }
 
-  
+  /* Links */
+a {
+  text-decoration: none;
+  color: black;
+  transition: opacity 0.3s ease;
+}
 
+a:hover {
+  opacity: 0.8;
+}
+
+a:active {
+  color: #f00;
+}
+
+/* Footer (not included in this page) */
+
+/* UI Elements & Status States (not relevant for this page) */
+
+/* Media Queries (not needed for basic layout_
 /* Content Sections */
 .content {
     flex: 1;
@@ -59,23 +77,4 @@ footer {
     padding: 10px;
 }
 
-/* Links */
-a {
-  text-decoration: none;
-  color: black;
-  transition: opacity 0.3s ease;
-}
 
-a:hover {
-  opacity: 0.8;
-}
-
-a:active {
-  color: #f00;
-}
-
-/* Footer (not included in this page) */
-
-/* UI Elements & Status States (not relevant for this page) */
-
-/* Media Queries (not needed for basic layout_
