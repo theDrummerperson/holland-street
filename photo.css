@@ -1,6 +1,4 @@
-body {
-  font: 1.2em sans-serif;
-}
+
 
 img {
   max-width: 100%;
@@ -49,11 +47,11 @@ p {
 .ilyas {
     position: absolute;
     top: 0;
-    left: 50%;
+    left: 0%;
     transform: translateX(-50%); /* Center the image horizontally */
     width: 50%;
     height: 50%;
-    z-index: -1;
+    z-index: 0;
 }  
 
 
