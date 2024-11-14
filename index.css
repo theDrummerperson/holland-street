@@ -12,7 +12,7 @@
     background-color: red; /* Set the background color to red */
     text-align: center; 
     display: block; /* Make the element a block-level element */
-    width: 100%; /* Set the width to 100% of its parent container */
+    width: 80%; /* Set the width to 100% of its parent container */
     margin: 0 auto; /* Center the element horizontally */
 }
 .social-links {
