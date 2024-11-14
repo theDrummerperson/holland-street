@@ -1,16 +1,19 @@
-
 /* General reset and structure */
 * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 /* Hero section container (text and image positioning) */
 .hero-container {
     position: relative;
     display: flex;
-    justify-content: center;  /* Center image horizontally */
-    align-items: center;      /* Center image vertically */
+    justify-content: center; /* Center image horizontally */
+    align-items: flex-start; /* Align text at the top, above the image */
     width: 100%;
-    height: 100vh;            /* Full viewport height */
-    overflow: hidden;         /* Hide overflow to prevent the image from spilling */
+    height: 100vh;           /* Full viewport height */
+    overflow: hidden;        /* Prevent image from overflowing */
 }
 
 /* Hero image (background behind text) */
@@ -18,36 +21,18 @@
     position: absolute;
     top: 0;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(-50%);  /* Center the image horizontally */
     width: 100%;
     height: 100%;
-    z-index: 0;               /* Image behind the text */
+    z-index: 0;                   /* Image behind the text */
 }
 
 .hero-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;        /* Cover the entire container without distortion */
+    width: 100%;               /* Fill the width of the container */
+    height: 100%;              /* Fill the height of the container */
+    object-fit: cover;         /* Make sure image covers the entire container without distortion */
+    object-position: center;   /* Ensure the image is centered */
 }
-
-
-/* Hero image (background behind text) */
-.saiilyas {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 100%;
-    height: 100%;
-    z-index: 0;               /* Image behind the text */
-}
-
-.ilyas.jpeg img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;        /* Cover the entire container without distortion */
-}
-
 
 /* Text container (above the image) */
 .hero-text {
@@ -74,12 +59,12 @@
 /* Media query for small screens */
 @media (max-width: 768px) {
     .hero-container {
-        flex-direction: column;  /* Stack text and image vertically on smaller screens */
-        align-items: center;     /* Center both vertically and horizontally */
+        flex-direction: column; /* Stack text and image vertically on smaller screens */
+        align-items: center;    /* Center both vertically and horizontally */
     }
 
     .hero-text {
-        margin-right: 0;         /* Remove right margin when stacking */
-        text-align: center;      /* Center text on small screens */
+        margin-right: 0;        /* Remove right margin when stacking */
+        text-align: center;     /* Center text on small screens */
     }
 }
