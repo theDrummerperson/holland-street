@@ -40,9 +40,3 @@ main {
   flex: 1;
 }
 
-/* Hero Section */
-#hero img {
-  width: 100%;
-  height: auto;
-  max-width: 100%;
-}
