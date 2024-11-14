@@ -46,29 +46,3 @@ main {
   height: auto;
   max-width: 100%;
 }
-
-
-
-/* Content Sections (not included in this page) */
-
-/* Links */
-a {
-  text-decoration: none;
-  color: black;
-  transition: opacity 0.3s ease;
-}
-
-a:hover {
-  opacity: 0.8;
-}
-
-a:active {
-  color: #f00;
-}
-
-/* Footer (not included in this page) */
-
-/* UI Elements & Status States (not relevant for this page) */
-
-/* Media Queries (not needed for basic layout) */
-
