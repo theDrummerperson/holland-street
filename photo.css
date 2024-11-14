@@ -29,7 +29,7 @@
 
 .hero-image img {
     width: 100%;               /* Fill the width of the container */
-    height: 100%;              /* Fill the height of the container */
+    height: auto;              /* Adjust height automatically based on width */
     object-fit: cover;         /* Make sure image covers the entire container without distortion */
     object-position: center;   /* Ensure the image is centered */
 }
@@ -66,5 +66,9 @@
     .hero-text {
         margin-right: 0;        /* Remove right margin when stacking */
         text-align: center;     /* Center text on small screens */
+    }
+
+    .hero-image img {
+        height: auto;           /* Maintain aspect ratio on small screens */
     }
 }
