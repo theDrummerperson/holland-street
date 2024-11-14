@@ -34,6 +34,12 @@ nav {
     z-index: 1;
 }
 
+.hero-text2 {
+    position: relative;
+    text-align: center;
+    font-size: 1.5rem;  /* Makes it 24px if base font size is 16px */
+    line-height: 1.8;   /* Increases line height for better readability */
+    margin-bottom: 2rem; /* Adds some space below */}
 
 
 /* Content Sections */
