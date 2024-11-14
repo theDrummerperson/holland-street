@@ -35,25 +35,7 @@
     object-position: center;   /* Keep the image centered in the container */
 }
 
-* Hero2 image container (positioning the image) */
-.hero-image2 {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);  /* Center the image horizontally */
-    width: 100%;                   /* Make the image container take up full width */
-    height: 100%;                  /* Make the image container take up full height */
-    z-index: 0;                   /* Keep the image behind the text */
 
-
-/* Image styling */
-.hero-image2 img {
-    width: 100%;               /* Fill the width of the container */
-    height: 100%;              /* Stretch to fill the height of the container */
-    object-fit: cover;         /* Maintain aspect ratio while covering the container */
-    object-position: center;   /* Keep the image centered in the container */
-}
-    
 /* Text container (above the image) */
 .hero-text {
     position: relative;
