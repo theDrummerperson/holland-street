@@ -20,7 +20,7 @@ nav {
     justify-content: space-between; /* Space between logo and links */
     align-items: center;
     padding: 10px 20px;
-    background-color: #333; /* Dark background for the nav */
+    background-color: white; /* Dark background for the nav */
 }
 
 /* Style the logo */
