@@ -44,7 +44,7 @@ nav {
 
 /* Style the links */
 #top-right-nav a {
-    color: white; /* White text color */
+    color: gray; /* White text color */
     text-decoration: none; /* Remove underline */
     font-size: 16px;
     transition: color 0.3s ease; /* Add a hover effect */
@@ -52,5 +52,5 @@ nav {
 
 /* Hover effect for links */
 #top-right-nav a:hover {
-    color: #ff9800; /* Highlight links on hover */
+    color: black; /* Highlight links on hover */
 }
