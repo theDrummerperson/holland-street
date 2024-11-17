@@ -8,6 +8,38 @@
 }
 
 
+#content {
+    position: relative; /* Establishes a context for absolutely positioned elements inside it */
+}
+
+#hero-image img {
+    display: block; /* Ensures the image doesn't overlap other elements unnaturally */
+    width: 100%; /* Makes the image responsive */
+    height: auto;
+}
+
+.hero-text {
+    position: absolute; /* Allows placement relative to the #content container */
+    top: 50%; /* Center vertically */
+    right: 10%; /* Center horizontally to the right */
+    transform: translateY(-50%); /* Adjust for proper vertical centering */
+    z-index: 10; /* Ensures it appears above the image */
+    background: rgba(255, 255, 255, 0.8); /* Optional: Add a semi-transparent background for better readability */
+    padding: 20px; /* Add spacing inside the text box */
+    border-radius: 8px; /* Optional: Rounded corners for aesthetics */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Optional: Add a shadow for depth */
+    text-align: left; /* Align text to the left for readability */
+}
+
+.attention {
+    font-size: 2em; /* Make the heading stand out */
+    margin-bottom: 10px;
+}
+
+
+
+
+
 /* General reset */
 body {
     margin: 0;
