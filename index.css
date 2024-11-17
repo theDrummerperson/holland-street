@@ -29,6 +29,7 @@
     border-radius: 8px; /* Optional: Rounded corners for aesthetics */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Optional: Add a shadow for depth */
     text-align: left; /* Align text to the left for readability */
+    width: 50%; /* Reduces the width to half of the container */
 }
 
 .attention {
