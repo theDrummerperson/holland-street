@@ -32,6 +32,14 @@
     width: 40%; /* Reduces the width to half of the container */
 }
 
+
+#hero-image2 img {
+    display: block; /* Ensures the image doesn't overlap other elements unnaturally */
+    width: 50%; /* Makes the image responsive */
+    height: auto;
+}
+
+
 .attention {
     font-size: 2em; /* Make the heading stand out */
     margin-bottom: 10px;
