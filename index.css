@@ -6,3 +6,51 @@
     width: 80%; /* Set the width to 100% of its parent container */
     margin: 0 auto; /* Center the element horizontally */
 }
+
+
+/* General reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the navigation bar */
+nav {
+    display: flex;
+    justify-content: space-between; /* Space between logo and links */
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333; /* Dark background for the nav */
+}
+
+/* Style the logo */
+#logo img {
+    height: 50px; /* Adjust the size of the logo */
+    width: auto;
+}
+
+/* Style the navigation links */
+#top-right-nav {
+    list-style: none; /* Remove bullet points */
+    display: flex; /* Make the list horizontal */
+    margin: 0;
+    padding: 0;
+}
+
+/* Style individual list items */
+#top-right-nav li {
+    margin-left: 20px; /* Add space between links */
+}
+
+/* Style the links */
+#top-right-nav a {
+    color: white; /* White text color */
+    text-decoration: none; /* Remove underline */
+    font-size: 16px;
+    transition: color 0.3s ease; /* Add a hover effect */
+}
+
+/* Hover effect for links */
+#top-right-nav a:hover {
+    color: #ff9800; /* Highlight links on hover */
+}
