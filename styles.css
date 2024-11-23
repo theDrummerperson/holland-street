@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
+    margin: 5px;
     padding: 10px;
     background-color: white;
 }
@@ -59,14 +59,14 @@ nav ul li.dropdown a::after {
 }
 
 .hero-section {
-    position: absolute;
+    position: relative;
     display: flex;
     top: 30px;
     flex-direction: column;
     align-items: center; /* Center items */
     justify-content: center;
     height: 80vh;
-    text-align: center; /* Center text */
+    text-align: bottom; /* Center text */
     padding: 0 50px; /* Add padding to the sides */
 }
 
@@ -86,15 +86,15 @@ nav ul li.dropdown a::after {
 }
 
 .hero-section h1 .entrepreneurial-dreams {
-    font-size: 48px;
-    font-weight: 400;
+    font-size: 30px;
+    font-weight: 300;
     color: black;
     display: block; /* Ensure it takes the full width */
     width: 100%; /* Ensure both lines have the same width */
 }
 
 .hero-image {
-    position: absolute;
+    position: relative;
     top: 20%; /* Adjust the top position to ensure the image is below the text */
     left: 50%;
     transform: translate(-50%, -50%);
