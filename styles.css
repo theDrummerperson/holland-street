@@ -59,8 +59,9 @@ nav ul li.dropdown a::after {
 }
 
 .hero-section {
-    position: relative;
+    position: absolute;
     display: flex;
+    top: 30px;
     flex-direction: column;
     align-items: center; /* Center items */
     justify-content: center;
@@ -70,15 +71,15 @@ nav ul li.dropdown a::after {
 }
 
 .hero-section h1 {
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     position: relative;
     z-index: 1;
     line-height: 1.2; /* Adjust line height for better spacing */
 }
 
 .hero-section h1 .funding {
-    font-size: 50px;
-    font-weight: 400;
+    font-size: 80px;
+    font-weight: 600;
     color: #fe5679;
     display: block; /* Ensure it takes the full width */
     width: 100%; /* Ensure both lines have the same width */
