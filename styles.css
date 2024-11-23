@@ -65,12 +65,12 @@ nav ul li.dropdown a::after {
     align-items: center; /* Center items */
     justify-content: center;
     height: 80vh;
-    text-align: center; /* Center text */
+    text-align: right; /* Right text */
     padding: 0 50px; /* Add padding to the sides */
 }
 
 .hero-section h1 {
-    font-size: 48px;
+    font-size: 40px;
     margin-bottom: 20px;
     position: relative;
     z-index: 1;
