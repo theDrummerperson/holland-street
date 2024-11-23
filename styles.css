@@ -94,11 +94,11 @@ nav ul li.dropdown a::after {
 }
 
 .hero-image {
-    position: relative;
+    position: absolute;
     top: 20%; /* Adjust the top position to ensure the image is below the text */
     left: 50%;
     transform: translate(-50%, -50%);
-    z-index: 0;
+    z-index: 1;
 }
 
 /* Dropdown styles */
