@@ -37,11 +37,6 @@ nav ul li a {
     position: relative;
 }
 
-nav ul li.dropdown a::after {
-    content: ' ▼';
-    font-size: 12px;
-    margin-left: 5px;
-}
 
 .cta-buttons {
     display: flex;
@@ -60,6 +55,7 @@ nav ul li.dropdown a::after {
 
 .hero-section {
     position: relative;
+    top: 50px;
     display: flex;
     top: 30px;
     flex-direction: column;
