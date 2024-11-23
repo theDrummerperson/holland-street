@@ -17,7 +17,7 @@ header {
 .logo-nav {
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: flex-start;
     width: 100%;
 }
 
@@ -38,10 +38,16 @@ nav ul li a {
     position: relative;
 }
 
-nav ul li a::after {
+nav ul li.dropdown a::after {
     content: ' ▼';
     font-size: 12px;
     margin-left: 5px;
+}
+
+.cta-buttons {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
 }
 
 .cta-buttons button {
@@ -77,7 +83,7 @@ nav ul li a::after {
 
 .hero-image {
     position: absolute;
-    top: 70%;
+    top: 20%; /* Adjust the top position to ensure the image is below the text */
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 0;
