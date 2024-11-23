@@ -120,7 +120,7 @@ nav ul li.dropdown a::after {
 
 .dropdown-content a {
     color: black;
-    padding: 12px 16px;
+    padding: 12px 17px;
     text-decoration: none;
     display: block;
     text-align: left; /* Align text to the left */
