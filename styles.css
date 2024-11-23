@@ -1,4 +1,3 @@
-/* styles.css */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -11,7 +10,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: black;
+    background-color: white;
 }
 
 .logo img {
@@ -25,26 +24,21 @@ nav ul {
 }
 
 nav ul li a {
-    color: #ffffff;
+    color: #000000;
     text-decoration: none;
 }
-
 
 .cta-buttons button {
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    background-color: darkorange;
+    color: white;
 }
-
-.start-process {
-    background-color: yellow;
-    color: #ffffff;
-}
-
-
 
 .hero-section {
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -56,6 +50,8 @@ nav ul li a {
 .hero-section h1 {
     font-size: 48px;
     margin-bottom: 20px;
+    position: relative;
+    z-index: 1;
 }
 
 .hero-section button {
@@ -64,10 +60,15 @@ nav ul li a {
     border-radius: 5px;
     cursor: pointer;
     margin: 10px;
+    background-color: black;
+    color: white;
 }
 
-.start-reading {
-    background-color: #ff6f61;
-    color: #ffffff;
+.hero-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
 }
 
