@@ -8,13 +8,13 @@ body {
 header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: right;
     padding: 20px;
     background-color: white;
 }
 
 .logo img {
-    height: 60px;
+    height: 80px;
 }
 
 nav ul {
@@ -57,22 +57,13 @@ nav ul li a {
     align-self: flex-end; /* Align the h1 to the right */
 }
 
-.hero-section button {
-    padding: 15px 30px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin: 10px;
-    background-color: black;
-    color: white;
-    align-self: flex-end; /* Align the button to the right */
-}
+
 
 .hero-image {
     position: absolute;
-    top: 60%;
+    top: 70%;
     left: 50%;
-    transform: translate(-60%, -50%);
+    transform: translate(-50%, -50%);
     z-index: 0;
 }
 
